@@ -136,7 +136,7 @@ public class FeatureMatchingUtils {
 	    printMemoryUsage(runtime);
 
 	    // Збереження отриманого зображення за вказаним шляхом
-	    ImageUtilities.write(combinedMatches, new File("D:\\Diplom\\fff\\result.png"));
+	    ImageUtilities.write(combinedMatches, new File("fff\\result.png"));
 
 	    query = null;
 	    target = null;
